@@ -1,0 +1,23 @@
+panel,task,series,value
+4b,Santa Fe,Previous Best,0.0290
+4b,Santa Fe,Single-Lattice,0.0324
+4b,Santa Fe,Multi-Lattice (Fused),0.0224
+4b,NARMA10,Previous Best,0.1070
+4b,NARMA10,Single-Lattice,0.1099
+4b,NARMA10,Multi-Lattice (Fused),0.0900
+4b,Lorenz63,Previous Best,0.0143
+4b,Lorenz63,Single-Lattice,0.0379
+4b,Lorenz63,Multi-Lattice (Fused),0.0184
+4c,Santa Fe,Single-Lattice,33.97
+4c,Santa Fe,Multi-Lattice (Fused),109.85
+4c,NARMA10,Single-Lattice,49.66
+4c,NARMA10,Multi-Lattice (Fused),108.58
+4c,Lorenz63,Single-Lattice,46.04
+4c,Lorenz63,Multi-Lattice (Fused),103.16
+4d,Santa Fe,Single-Lattice,0.3367
+4d,Santa Fe,Multi-Lattice (Fused),0.2288
+4d,NARMA10,Single-Lattice,0.1068
+4d,NARMA10,Multi-Lattice (Fused),0.1115
+4d,Lorenz63,Single-Lattice,0.2158
+4d,Lorenz63,Multi-Lattice (Fused),0.2629
+

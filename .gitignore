@@ -1,0 +1,15 @@
+# Generated figures and runtime outputs
+results/
+
+# MATLAB temporary files
+*.asv
+*.m~
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
