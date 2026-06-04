@@ -14,8 +14,10 @@ calculation, feature-space diagnostics, and figure generation.
 NGRC-code/
   README.md
   LICENSE
+  requirements.txt
   matlab/
-    demo_optical_ngrc_workflow.m
+    demo_single_lattice_ngrc.m
+    demo_multi_lattice_fusion_ngrc.m
   python/
     figures/
       plot_figure4bcd.py
@@ -24,27 +26,33 @@ NGRC-code/
       figure4bcd_source_data.csv
 ```
 
-## MATLAB Demo
+## MATLAB Demos
 
-The MATLAB script
+The MATLAB scripts
 
 ```text
-matlab/demo_optical_ngrc_workflow.m
+matlab/demo_single_lattice_ngrc.m
+matlab/demo_multi_lattice_fusion_ngrc.m
 ```
 
 uses synthetic placeholder sequences and synthetic optical-like feature maps to
-illustrate the analysis pipeline:
+illustrate the analysis pipeline. The single-lattice demo shows the basic
+optical NGRC workflow for one temporal-lattice configuration:
 
 1. generation of a nonlinear benchmark sequence,
 2. construction of delayed input coordinates,
-3. generation of single-lattice and multi-lattice optical-like feature matrices,
+3. generation of a single optical-like feature matrix,
 4. ridge-readout training,
 5. NMSE evaluation,
 6. entropy-based effective-rank calculation, and
 7. mean absolute pairwise feature-correlation calculation.
 
-This demo is not intended to reproduce the exact numerical results in the
-manuscript because it does not include the experimental oscilloscope waveform
+The multi-lattice demo extends the same workflow by generating several
+distinct optical-like feature matrices, concatenating them before readout
+training, and comparing the single-lattice and fused multi-lattice results.
+
+These demos are not intended to reproduce the exact numerical results in the
+manuscript because they do not include the experimental oscilloscope waveform
 files.
 
 ## Figure Source Data
@@ -88,4 +96,3 @@ Raw oscilloscope waveform files are not included in this lightweight code
 package because of their large file size. Processed source data required for the
 provided Fig. 4b-d plotting script are included. Additional experimental data
 can be made available according to the manuscript data-availability statement.
-

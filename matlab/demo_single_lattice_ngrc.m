@@ -1,7 +1,7 @@
-%% Representative optical NGRC workflow demo
-% This script demonstrates the computational workflow used in the manuscript.
-% It uses synthetic placeholder data and does not reproduce the experimental
-% numerical results reported in the paper.
+%% Representative single-lattice optical NGRC demo
+% This script demonstrates the single-lattice branch of the optical NGRC
+% workflow using synthetic placeholder data. It does not reproduce the
+% experimental numerical results reported in the manuscript.
 
 clear; clc; close all;
 rng(7);
@@ -12,83 +12,70 @@ train_len = 1200;
 memory_depth = 10;
 ridge_alpha = 1e-4;
 
-u = 0.5 + 0.5 * sin((1:num_samples + memory_depth)' * 0.037);
-u = u + 0.08 * randn(size(u));
-u = (u - min(u)) / (max(u) - min(u));
+[input_sequence, target_sequence] = make_synthetic_sequence(num_samples, memory_depth);
+delayed_inputs = make_delayed_inputs(input_sequence, num_samples, memory_depth);
 
-y = zeros(num_samples + memory_depth, 1);
-for n = memory_depth + 1:num_samples + memory_depth
-    delayed_sum = sum(y(n-memory_depth:n-1));
-    y(n) = 0.25 * y(n-1) + 0.05 * y(n-1) * delayed_sum ...
-        + 1.5 * u(n-memory_depth) * u(n-1) + 0.1;
-end
-y = y(memory_depth + 1:end);
-y = (y - min(y)) / (max(y) - min(y));
+%% Generate one optical-like lattice feature matrix
+% In the experiment, this feature matrix is measured from one temporal-lattice
+% configuration. Here, deterministic random mixing and square-law detection
+% mimic interference in the lattice followed by photodetection.
+num_features = 60;
+single_feature_matrix = make_lattice_features(delayed_inputs, num_features, 1);
 
-%% Construct delayed input coordinates
-delayed_inputs = zeros(num_samples, memory_depth);
-for n = 1:num_samples
-    idx = n + memory_depth;
-    delayed_inputs(n, :) = u(idx:-1:idx-memory_depth+1);
-end
-
-%% Generate synthetic optical-like lattice feature matrices
-% In the experiment, these matrices are measured from the temporal lattice.
-% Here, deterministic random mixing and square-law detection mimic the role of
-% lattice interference followed by photodetection.
-num_features_single = 60;
-num_lattices = 3;
-
-single_feature_matrix = make_lattice_features(delayed_inputs, num_features_single, 1);
-
-feature_blocks = cell(1, num_lattices);
-for ell = 1:num_lattices
-    feature_blocks{ell} = make_lattice_features(delayed_inputs, num_features_single, ell);
-end
-fused_feature_matrix = [feature_blocks{:}];
-
-%% Train ridge readouts and evaluate NMSE
-target_train = y(1:train_len);
-target_test = y(train_len+1:end);
-
+%% Train the ridge readout and evaluate prediction error
+target_train = target_sequence(1:train_len);
+target_test = target_sequence(train_len+1:end);
 single_train = single_feature_matrix(1:train_len, :);
 single_test = single_feature_matrix(train_len+1:end, :);
-fused_train = fused_feature_matrix(1:train_len, :);
-fused_test = fused_feature_matrix(train_len+1:end, :);
 
 [single_prediction, single_nmse] = ridge_predict(single_train, target_train, ...
     single_test, target_test, ridge_alpha);
-[fused_prediction, fused_nmse] = ridge_predict(fused_train, target_train, ...
-    fused_test, target_test, ridge_alpha);
 
-%% Feature-space diagnostics
 single_stats = feature_space_diagnostics(single_train);
-fused_stats = feature_space_diagnostics(fused_train);
 
-fprintf('\nRepresentative optical NGRC workflow demo\n');
+fprintf('\nSingle-lattice optical NGRC demo\n');
 fprintf('Single-lattice NMSE: %.4f\n', single_nmse);
-fprintf('Multi-lattice fused NMSE: %.4f\n', fused_nmse);
-fprintf('\nSingle lattice:\n');
 fprintf('D = %d\n', single_stats.D);
 fprintf('effective rank = %.4f\n', single_stats.effective_rank);
 fprintf('mean |corr| = %.4f\n', single_stats.mean_abs_corr);
-fprintf('\nMulti-lattice:\n');
-fprintf('D = %d\n', fused_stats.D);
-fprintf('effective rank = %.4f\n', fused_stats.effective_rank);
-fprintf('mean |corr| = %.4f\n', fused_stats.mean_abs_corr);
 
 %% Plot a short prediction segment
 figure('Color', 'w', 'Position', [100, 100, 900, 360]);
 plot(target_test(1:250), 'k-', 'LineWidth', 1.5); hold on;
 plot(single_prediction(1:250), '-', 'LineWidth', 1.2);
-plot(fused_prediction(1:250), '-', 'LineWidth', 1.2);
-legend({'Ground truth', 'Single lattice', 'Multi-lattice'}, 'Box', 'off');
+legend({'Ground truth', 'Single lattice'}, 'Box', 'off');
 xlabel('Test sample');
 ylabel('Normalized target');
-title('Representative prediction trace');
+title('Single-lattice prediction trace');
 grid on;
 
 %% Local functions
+function [input_sequence, target_sequence] = make_synthetic_sequence(num_samples, memory_depth)
+    input_sequence = 0.5 + 0.5 * sin((1:num_samples + memory_depth)' * 0.037);
+    input_sequence = input_sequence + 0.08 * randn(size(input_sequence));
+    input_sequence = (input_sequence - min(input_sequence)) ...
+        / (max(input_sequence) - min(input_sequence));
+
+    target_full = zeros(num_samples + memory_depth, 1);
+    for n = memory_depth + 1:num_samples + memory_depth
+        delayed_sum = sum(target_full(n-memory_depth:n-1));
+        target_full(n) = 0.25 * target_full(n-1) ...
+            + 0.05 * target_full(n-1) * delayed_sum ...
+            + 1.5 * input_sequence(n-memory_depth) * input_sequence(n-1) + 0.1;
+    end
+    target_sequence = target_full(memory_depth + 1:end);
+    target_sequence = (target_sequence - min(target_sequence)) ...
+        / (max(target_sequence) - min(target_sequence));
+end
+
+function delayed_inputs = make_delayed_inputs(input_sequence, num_samples, memory_depth)
+    delayed_inputs = zeros(num_samples, memory_depth);
+    for n = 1:num_samples
+        idx = n + memory_depth;
+        delayed_inputs(n, :) = input_sequence(idx:-1:idx-memory_depth+1);
+    end
+end
+
 function features = make_lattice_features(delayed_inputs, num_features, lattice_id)
     rng(100 + lattice_id);
     input_dim = size(delayed_inputs, 2);
