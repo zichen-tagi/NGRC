@@ -88,7 +88,35 @@ Main purpose:
 - provide a lightweight reproduction path without requiring the full raw
   oscilloscope waveform files.
 
+### `python/figures/plot_supplementary_source_data.py`
+
+Python script for plotting lightweight check figures from the supplementary
+source-data CSV files.
+
+Input:
+
+- `data/supplementary_source_data/Supplementary_Fig2_peak_extraction_source.csv`
+- `data/supplementary_source_data/Supplementary_Fig3_multilattice_feature_matrices_source.csv`
+- `data/supplementary_source_data/Supplementary_Fig4_ridge_only_baseline_source.csv`
+- `data/supplementary_source_data/Supplementary_Fig5_cumulative_spectral_energy_source.csv`
+
+Outputs:
+
+- check plots under `results/supplementary/`
+
+Main purpose:
+
+- provide repository-side plotting code for Supplementary Figs. 2-5,
+- allow readers to inspect the uploaded supplementary source data without using
+  the full local manuscript folder.
+
 ## Main-Figure Source Data
+
+### `data/source_data.zip`
+
+Compressed copy of the full processed source-data package for the manuscript.
+It includes main-figure source data, supplementary-figure source data, metadata,
+and source-data mapping files.
 
 ### `data/figure_source_data/figure4bcd_source_data.csv`
 

@@ -21,7 +21,9 @@ NGRC-code/
   python/
     figures/
       plot_figure4bcd.py
+      plot_supplementary_source_data.py
   data/
+    source_data.zip
     figure_source_data/
       figure4bcd_source_data.csv
     supplementary_source_data/
@@ -75,6 +77,25 @@ data/figure_source_data/figure4bcd_source_data.csv
 ```
 
 to reproduce the Fig. 4b-d bar plots.
+
+The Python script
+
+```text
+python/figures/plot_supplementary_source_data.py
+```
+
+uses the CSV files in `data/supplementary_source_data/` to generate lightweight
+check plots for Supplementary Figs. 2-5. These plots are intended for source-data
+inspection and repository-side reproducibility checks.
+
+The compressed file
+
+```text
+data/source_data.zip
+```
+
+contains the full processed source-data package for the manuscript figures,
+including main-figure and supplementary-figure source data plus metadata.
 
 The folder
 
