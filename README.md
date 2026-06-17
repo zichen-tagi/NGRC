@@ -24,6 +24,11 @@ NGRC-code/
   data/
     figure_source_data/
       figure4bcd_source_data.csv
+    supplementary_source_data/
+      Supplementary_Fig2_peak_extraction_source.csv
+      Supplementary_Fig3_multilattice_feature_matrices_source.csv
+      Supplementary_Fig4_ridge_only_baseline_source.csv
+      Supplementary_Fig5_cumulative_spectral_energy_source.csv
 ```
 
 ## MATLAB Demos
@@ -71,6 +76,17 @@ data/figure_source_data/figure4bcd_source_data.csv
 
 to reproduce the Fig. 4b-d bar plots.
 
+The folder
+
+```text
+data/supplementary_source_data/
+```
+
+contains the processed source data used for Supplementary Figs. 2-5. These
+files include the peak-extraction example, the multi-lattice feature-matrix
+visualization, the ridge-only baseline comparison, and the cumulative
+singular-value spectral-energy curves.
+
 ## Requirements
 
 MATLAB:
@@ -94,5 +110,6 @@ pip install numpy pandas matplotlib
 
 Raw oscilloscope waveform files are not included in this lightweight code
 package because of their large file size. Processed source data required for the
-provided Fig. 4b-d plotting script are included. Additional experimental data
-can be made available according to the manuscript data-availability statement.
+provided Fig. 4b-d plotting script and supplementary figure data are included.
+Additional experimental data can be made available according to the manuscript
+data-availability statement.

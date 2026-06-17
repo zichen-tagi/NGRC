@@ -1,0 +1,948 @@
+Task,Configuration,Index,CumulativeSpectralEnergy
+Santa Fe,Single-lattice,1,0.289648755807574
+Santa Fe,Single-lattice,2,0.541615177895015
+Santa Fe,Single-lattice,3,0.632364859575428
+Santa Fe,Single-lattice,4,0.697076477632063
+Santa Fe,Single-lattice,5,0.752456775287037
+Santa Fe,Single-lattice,6,0.790019690002025
+Santa Fe,Single-lattice,7,0.822484096259793
+Santa Fe,Single-lattice,8,0.849700188249711
+Santa Fe,Single-lattice,9,0.869712136740377
+Santa Fe,Single-lattice,10,0.885755346292741
+Santa Fe,Single-lattice,11,0.900956680858955
+Santa Fe,Single-lattice,12,0.911675772446383
+Santa Fe,Single-lattice,13,0.920709319079365
+Santa Fe,Single-lattice,14,0.928959985118531
+Santa Fe,Single-lattice,15,0.936392556365513
+Santa Fe,Single-lattice,16,0.942527165345674
+Santa Fe,Single-lattice,17,0.948119767237346
+Santa Fe,Single-lattice,18,0.953273612884002
+Santa Fe,Single-lattice,19,0.958075863756402
+Santa Fe,Single-lattice,20,0.962334844957188
+Santa Fe,Single-lattice,21,0.966184109768715
+Santa Fe,Single-lattice,22,0.969429575024685
+Santa Fe,Single-lattice,23,0.972292013283609
+Santa Fe,Single-lattice,24,0.974831082468832
+Santa Fe,Single-lattice,25,0.977061306844159
+Santa Fe,Single-lattice,26,0.979183257932737
+Santa Fe,Single-lattice,27,0.981248315583302
+Santa Fe,Single-lattice,28,0.983063330895256
+Santa Fe,Single-lattice,29,0.984794838818958
+Santa Fe,Single-lattice,30,0.986195010357726
+Santa Fe,Single-lattice,31,0.987478759278663
+Santa Fe,Single-lattice,32,0.988587819340831
+Santa Fe,Single-lattice,33,0.989649192246387
+Santa Fe,Single-lattice,34,0.990588241136263
+Santa Fe,Single-lattice,35,0.991460551182945
+Santa Fe,Single-lattice,36,0.992262221090475
+Santa Fe,Single-lattice,37,0.992994955047044
+Santa Fe,Single-lattice,38,0.993676590775211
+Santa Fe,Single-lattice,39,0.994319857808903
+Santa Fe,Single-lattice,40,0.994951087121352
+Santa Fe,Single-lattice,41,0.995475795172805
+Santa Fe,Single-lattice,42,0.995957966694671
+Santa Fe,Single-lattice,43,0.996413501883198
+Santa Fe,Single-lattice,44,0.996808730043917
+Santa Fe,Single-lattice,45,0.997199237071158
+Santa Fe,Single-lattice,46,0.997544558419057
+Santa Fe,Single-lattice,47,0.997853703932875
+Santa Fe,Single-lattice,48,0.99810230245205
+Santa Fe,Single-lattice,49,0.998336167296593
+Santa Fe,Single-lattice,50,0.998543971809271
+Santa Fe,Single-lattice,51,0.998720345591
+Santa Fe,Single-lattice,52,0.998883005012593
+Santa Fe,Single-lattice,53,0.999024142416913
+Santa Fe,Single-lattice,54,0.999156991574831
+Santa Fe,Single-lattice,55,0.999279414813644
+Santa Fe,Single-lattice,56,0.999387457829305
+Santa Fe,Single-lattice,57,0.999490172689901
+Santa Fe,Single-lattice,58,0.999575347132759
+Santa Fe,Single-lattice,59,0.999657923903552
+Santa Fe,Single-lattice,60,0.999732203087418
+Santa Fe,Single-lattice,61,0.999800416790179
+Santa Fe,Single-lattice,62,0.999859315866549
+Santa Fe,Single-lattice,63,0.999902009728717
+Santa Fe,Single-lattice,64,0.99994049602533
+Santa Fe,Single-lattice,65,0.999971652659425
+Santa Fe,Single-lattice,66,1
+Santa Fe,Multi-lattice fusion,1,0.222715523031431
+Santa Fe,Multi-lattice fusion,2,0.406084450960712
+Santa Fe,Multi-lattice fusion,3,0.464537466352839
+Santa Fe,Multi-lattice fusion,4,0.511704377004101
+Santa Fe,Multi-lattice fusion,5,0.552208099319511
+Santa Fe,Multi-lattice fusion,6,0.581003282723384
+Santa Fe,Multi-lattice fusion,7,0.604958273906476
+Santa Fe,Multi-lattice fusion,8,0.626234966283663
+Santa Fe,Multi-lattice fusion,9,0.6460861483398
+Santa Fe,Multi-lattice fusion,10,0.664117825910931
+Santa Fe,Multi-lattice fusion,11,0.680511136867822
+Santa Fe,Multi-lattice fusion,12,0.696335307198823
+Santa Fe,Multi-lattice fusion,13,0.710452349058785
+Santa Fe,Multi-lattice fusion,14,0.724108407063445
+Santa Fe,Multi-lattice fusion,15,0.736487430804965
+Santa Fe,Multi-lattice fusion,16,0.747594645882436
+Santa Fe,Multi-lattice fusion,17,0.7578233457969
+Santa Fe,Multi-lattice fusion,18,0.767479236965505
+Santa Fe,Multi-lattice fusion,19,0.776223025469878
+Santa Fe,Multi-lattice fusion,20,0.784502161301275
+Santa Fe,Multi-lattice fusion,21,0.792368853114497
+Santa Fe,Multi-lattice fusion,22,0.799503390106521
+Santa Fe,Multi-lattice fusion,23,0.806334408424327
+Santa Fe,Multi-lattice fusion,24,0.812597238668817
+Santa Fe,Multi-lattice fusion,25,0.818734691551733
+Santa Fe,Multi-lattice fusion,26,0.824631568918941
+Santa Fe,Multi-lattice fusion,27,0.830186629798277
+Santa Fe,Multi-lattice fusion,28,0.835642894453574
+Santa Fe,Multi-lattice fusion,29,0.840969678428976
+Santa Fe,Multi-lattice fusion,30,0.846023495434082
+Santa Fe,Multi-lattice fusion,31,0.851025599676257
+Santa Fe,Multi-lattice fusion,32,0.855723730008162
+Santa Fe,Multi-lattice fusion,33,0.860260536537012
+Santa Fe,Multi-lattice fusion,34,0.864769059388942
+Santa Fe,Multi-lattice fusion,35,0.868837076202819
+Santa Fe,Multi-lattice fusion,36,0.872795093479581
+Santa Fe,Multi-lattice fusion,37,0.876705805130692
+Santa Fe,Multi-lattice fusion,38,0.880504786331469
+Santa Fe,Multi-lattice fusion,39,0.884213924222213
+Santa Fe,Multi-lattice fusion,40,0.887886675686592
+Santa Fe,Multi-lattice fusion,41,0.891500478566353
+Santa Fe,Multi-lattice fusion,42,0.894862263793442
+Santa Fe,Multi-lattice fusion,43,0.898088924571633
+Santa Fe,Multi-lattice fusion,44,0.901249340197162
+Santa Fe,Multi-lattice fusion,45,0.904394195761666
+Santa Fe,Multi-lattice fusion,46,0.907462411958367
+Santa Fe,Multi-lattice fusion,47,0.91038985318891
+Santa Fe,Multi-lattice fusion,48,0.913180637658565
+Santa Fe,Multi-lattice fusion,49,0.915931523596963
+Santa Fe,Multi-lattice fusion,50,0.918516795513414
+Santa Fe,Multi-lattice fusion,51,0.921043132605078
+Santa Fe,Multi-lattice fusion,52,0.923534506720254
+Santa Fe,Multi-lattice fusion,53,0.925955673369348
+Santa Fe,Multi-lattice fusion,54,0.928320483737159
+Santa Fe,Multi-lattice fusion,55,0.930620390373667
+Santa Fe,Multi-lattice fusion,56,0.932902838059264
+Santa Fe,Multi-lattice fusion,57,0.935138010582002
+Santa Fe,Multi-lattice fusion,58,0.937328548747061
+Santa Fe,Multi-lattice fusion,59,0.939400998397307
+Santa Fe,Multi-lattice fusion,60,0.941390002800312
+Santa Fe,Multi-lattice fusion,61,0.943334135468371
+Santa Fe,Multi-lattice fusion,62,0.945216813748851
+Santa Fe,Multi-lattice fusion,63,0.947016988254744
+Santa Fe,Multi-lattice fusion,64,0.948777569623983
+Santa Fe,Multi-lattice fusion,65,0.950502323598122
+Santa Fe,Multi-lattice fusion,66,0.952210530826513
+Santa Fe,Multi-lattice fusion,67,0.953829147319933
+Santa Fe,Multi-lattice fusion,68,0.955405261545622
+Santa Fe,Multi-lattice fusion,69,0.956961993103109
+Santa Fe,Multi-lattice fusion,70,0.958471982576793
+Santa Fe,Multi-lattice fusion,71,0.959948263374013
+Santa Fe,Multi-lattice fusion,72,0.961329457412299
+Santa Fe,Multi-lattice fusion,73,0.962676059280651
+Santa Fe,Multi-lattice fusion,74,0.963967509203592
+Santa Fe,Multi-lattice fusion,75,0.965213666143425
+Santa Fe,Multi-lattice fusion,76,0.966453675752729
+Santa Fe,Multi-lattice fusion,77,0.967639557443118
+Santa Fe,Multi-lattice fusion,78,0.968796850844289
+Santa Fe,Multi-lattice fusion,79,0.969936106561553
+Santa Fe,Multi-lattice fusion,80,0.971025857012318
+Santa Fe,Multi-lattice fusion,81,0.972105263109814
+Santa Fe,Multi-lattice fusion,82,0.973121401290918
+Santa Fe,Multi-lattice fusion,83,0.974107776334231
+Santa Fe,Multi-lattice fusion,84,0.975056546327348
+Santa Fe,Multi-lattice fusion,85,0.975984469228002
+Santa Fe,Multi-lattice fusion,86,0.976894873918633
+Santa Fe,Multi-lattice fusion,87,0.9777537559038
+Santa Fe,Multi-lattice fusion,88,0.978606998866525
+Santa Fe,Multi-lattice fusion,89,0.979425179264971
+Santa Fe,Multi-lattice fusion,90,0.980210117580782
+Santa Fe,Multi-lattice fusion,91,0.980967544146943
+Santa Fe,Multi-lattice fusion,92,0.981717885885738
+Santa Fe,Multi-lattice fusion,93,0.982439620762587
+Santa Fe,Multi-lattice fusion,94,0.983139024636442
+Santa Fe,Multi-lattice fusion,95,0.983786731802827
+Santa Fe,Multi-lattice fusion,96,0.984415685845927
+Santa Fe,Multi-lattice fusion,97,0.985036939543815
+Santa Fe,Multi-lattice fusion,98,0.985614323674341
+Santa Fe,Multi-lattice fusion,99,0.986160610888692
+Santa Fe,Multi-lattice fusion,100,0.986676565430791
+Santa Fe,Multi-lattice fusion,101,0.987189496248212
+Santa Fe,Multi-lattice fusion,102,0.987697343734174
+Santa Fe,Multi-lattice fusion,103,0.988189237271218
+Santa Fe,Multi-lattice fusion,104,0.98865877746674
+Santa Fe,Multi-lattice fusion,105,0.989112175319597
+Santa Fe,Multi-lattice fusion,106,0.989545772269637
+Santa Fe,Multi-lattice fusion,107,0.989954490464396
+Santa Fe,Multi-lattice fusion,108,0.990350516515419
+Santa Fe,Multi-lattice fusion,109,0.990724993050316
+Santa Fe,Multi-lattice fusion,110,0.991094221860189
+Santa Fe,Multi-lattice fusion,111,0.99144802658534
+Santa Fe,Multi-lattice fusion,112,0.991783114288612
+Santa Fe,Multi-lattice fusion,113,0.992108611421111
+Santa Fe,Multi-lattice fusion,114,0.992421855728146
+Santa Fe,Multi-lattice fusion,115,0.992727951864711
+Santa Fe,Multi-lattice fusion,116,0.993017491801765
+Santa Fe,Multi-lattice fusion,117,0.993303780838976
+Santa Fe,Multi-lattice fusion,118,0.993571665079112
+Santa Fe,Multi-lattice fusion,119,0.99383279831097
+Santa Fe,Multi-lattice fusion,120,0.994087084866277
+Santa Fe,Multi-lattice fusion,121,0.994335332174794
+Santa Fe,Multi-lattice fusion,122,0.994568821532424
+Santa Fe,Multi-lattice fusion,123,0.994795997966884
+Santa Fe,Multi-lattice fusion,124,0.995016937223708
+Santa Fe,Multi-lattice fusion,125,0.995226921602501
+Santa Fe,Multi-lattice fusion,126,0.995432728277838
+Santa Fe,Multi-lattice fusion,127,0.995629841416706
+Santa Fe,Multi-lattice fusion,128,0.995821751267947
+Santa Fe,Multi-lattice fusion,129,0.996002487393617
+Santa Fe,Multi-lattice fusion,130,0.996179532193095
+Santa Fe,Multi-lattice fusion,131,0.996347888025689
+Santa Fe,Multi-lattice fusion,132,0.996510469645933
+Santa Fe,Multi-lattice fusion,133,0.996672014239924
+Santa Fe,Multi-lattice fusion,134,0.996826544070314
+Santa Fe,Multi-lattice fusion,135,0.996970547297795
+Santa Fe,Multi-lattice fusion,136,0.997111775776492
+Santa Fe,Multi-lattice fusion,137,0.997245880219375
+Santa Fe,Multi-lattice fusion,138,0.99736813907971
+Santa Fe,Multi-lattice fusion,139,0.997489205394371
+Santa Fe,Multi-lattice fusion,140,0.997606160911607
+Santa Fe,Multi-lattice fusion,141,0.997719217046231
+Santa Fe,Multi-lattice fusion,142,0.997827449298314
+Santa Fe,Multi-lattice fusion,143,0.997932024432216
+Santa Fe,Multi-lattice fusion,144,0.99803496743663
+Santa Fe,Multi-lattice fusion,145,0.998132387373387
+Santa Fe,Multi-lattice fusion,146,0.998224517973685
+Santa Fe,Multi-lattice fusion,147,0.998312846227945
+Santa Fe,Multi-lattice fusion,148,0.998396984631937
+Santa Fe,Multi-lattice fusion,149,0.998478980676191
+Santa Fe,Multi-lattice fusion,150,0.99855858341227
+Santa Fe,Multi-lattice fusion,151,0.998631365463494
+Santa Fe,Multi-lattice fusion,152,0.998703764259
+Santa Fe,Multi-lattice fusion,153,0.998771771569746
+Santa Fe,Multi-lattice fusion,154,0.998835017546296
+Santa Fe,Multi-lattice fusion,155,0.998897660937885
+Santa Fe,Multi-lattice fusion,156,0.998958008269916
+Santa Fe,Multi-lattice fusion,157,0.999015593171786
+Santa Fe,Multi-lattice fusion,158,0.999071674706914
+Santa Fe,Multi-lattice fusion,159,0.999125341209155
+Santa Fe,Multi-lattice fusion,160,0.999175229362999
+Santa Fe,Multi-lattice fusion,161,0.9992241582416
+Santa Fe,Multi-lattice fusion,162,0.999269662553601
+Santa Fe,Multi-lattice fusion,163,0.99931219592881
+Santa Fe,Multi-lattice fusion,164,0.999353850552269
+Santa Fe,Multi-lattice fusion,165,0.999393358599641
+Santa Fe,Multi-lattice fusion,166,0.999430868530777
+Santa Fe,Multi-lattice fusion,167,0.999466767460488
+Santa Fe,Multi-lattice fusion,168,0.999501133777372
+Santa Fe,Multi-lattice fusion,169,0.99953470768631
+Santa Fe,Multi-lattice fusion,170,0.99956677252248
+Santa Fe,Multi-lattice fusion,171,0.999597499560403
+Santa Fe,Multi-lattice fusion,172,0.99962751621718
+Santa Fe,Multi-lattice fusion,173,0.99965567050828
+Santa Fe,Multi-lattice fusion,174,0.999682403335838
+Santa Fe,Multi-lattice fusion,175,0.999706438583306
+Santa Fe,Multi-lattice fusion,176,0.999729192674894
+Santa Fe,Multi-lattice fusion,177,0.999751027011604
+Santa Fe,Multi-lattice fusion,178,0.999771667833802
+Santa Fe,Multi-lattice fusion,179,0.999791611210712
+Santa Fe,Multi-lattice fusion,180,0.999810902491135
+Santa Fe,Multi-lattice fusion,181,0.999830037663527
+Santa Fe,Multi-lattice fusion,182,0.99984720515482
+Santa Fe,Multi-lattice fusion,183,0.999863273837229
+Santa Fe,Multi-lattice fusion,184,0.999878378785035
+Santa Fe,Multi-lattice fusion,185,0.999892041292286
+Santa Fe,Multi-lattice fusion,186,0.999903649219558
+Santa Fe,Multi-lattice fusion,187,0.999914805356595
+Santa Fe,Multi-lattice fusion,188,0.999925824861397
+Santa Fe,Multi-lattice fusion,189,0.999936598768296
+Santa Fe,Multi-lattice fusion,190,0.999946300286163
+Santa Fe,Multi-lattice fusion,191,0.999955581343166
+Santa Fe,Multi-lattice fusion,192,0.99996386827475
+Santa Fe,Multi-lattice fusion,193,0.999971732448062
+Santa Fe,Multi-lattice fusion,194,0.99997903300256
+Santa Fe,Multi-lattice fusion,195,0.999985771415774
+Santa Fe,Multi-lattice fusion,196,0.999991421425716
+Santa Fe,Multi-lattice fusion,197,0.999996313038477
+Santa Fe,Multi-lattice fusion,198,1
+NARMA10,Single-lattice,1,0.120641846820568
+NARMA10,Single-lattice,2,0.206839403165523
+NARMA10,Single-lattice,3,0.287625298330861
+NARMA10,Single-lattice,4,0.361861825522515
+NARMA10,Single-lattice,5,0.41976943385785
+NARMA10,Single-lattice,6,0.475537879474224
+NARMA10,Single-lattice,7,0.529114157605651
+NARMA10,Single-lattice,8,0.5716470968511
+NARMA10,Single-lattice,9,0.609835454367135
+NARMA10,Single-lattice,10,0.646442896421776
+NARMA10,Single-lattice,11,0.679077967812475
+NARMA10,Single-lattice,12,0.708522029041399
+NARMA10,Single-lattice,13,0.735764124263343
+NARMA10,Single-lattice,14,0.757942359077223
+NARMA10,Single-lattice,15,0.776698397468669
+NARMA10,Single-lattice,16,0.794485984227942
+NARMA10,Single-lattice,17,0.811482014179615
+NARMA10,Single-lattice,18,0.826228199799851
+NARMA10,Single-lattice,19,0.839904921208633
+NARMA10,Single-lattice,20,0.852857377468057
+NARMA10,Single-lattice,21,0.864093085755701
+NARMA10,Single-lattice,22,0.87476400771017
+NARMA10,Single-lattice,23,0.884995166157785
+NARMA10,Single-lattice,24,0.894703526632561
+NARMA10,Single-lattice,25,0.903729234889169
+NARMA10,Single-lattice,26,0.912496708328044
+NARMA10,Single-lattice,27,0.921034233396119
+NARMA10,Single-lattice,28,0.929341917984301
+NARMA10,Single-lattice,29,0.93646033811455
+NARMA10,Single-lattice,30,0.943249354142109
+NARMA10,Single-lattice,31,0.949666980536906
+NARMA10,Single-lattice,32,0.955842274151959
+NARMA10,Single-lattice,33,0.961863475976275
+NARMA10,Single-lattice,34,0.967120975663078
+NARMA10,Single-lattice,35,0.97186205758787
+NARMA10,Single-lattice,36,0.974864748869598
+NARMA10,Single-lattice,37,0.977050315428397
+NARMA10,Single-lattice,38,0.978603891157619
+NARMA10,Single-lattice,39,0.979850348339702
+NARMA10,Single-lattice,40,0.981086183766702
+NARMA10,Single-lattice,41,0.982274834661202
+NARMA10,Single-lattice,42,0.983396203212273
+NARMA10,Single-lattice,43,0.984486749340475
+NARMA10,Single-lattice,44,0.985518753374713
+NARMA10,Single-lattice,45,0.986539187263186
+NARMA10,Single-lattice,46,0.987511321045616
+NARMA10,Single-lattice,47,0.988388789507949
+NARMA10,Single-lattice,48,0.989257543526098
+NARMA10,Single-lattice,49,0.990100664672584
+NARMA10,Single-lattice,50,0.99089971623329
+NARMA10,Single-lattice,51,0.991644244190459
+NARMA10,Single-lattice,52,0.992367002895773
+NARMA10,Single-lattice,53,0.993006999264532
+NARMA10,Single-lattice,54,0.993630926334263
+NARMA10,Single-lattice,55,0.994181247184733
+NARMA10,Single-lattice,56,0.994707742558592
+NARMA10,Single-lattice,57,0.995172548000578
+NARMA10,Single-lattice,58,0.995594700239151
+NARMA10,Single-lattice,59,0.996000242210034
+NARMA10,Single-lattice,60,0.996391610815782
+NARMA10,Single-lattice,61,0.996757133688978
+NARMA10,Single-lattice,62,0.99709593145561
+NARMA10,Single-lattice,63,0.997428022143549
+NARMA10,Single-lattice,64,0.997749819641581
+NARMA10,Single-lattice,65,0.99805045561408
+NARMA10,Single-lattice,66,0.998336305543489
+NARMA10,Single-lattice,67,0.998608458528126
+NARMA10,Single-lattice,68,0.998868086534848
+NARMA10,Single-lattice,69,0.999113769634109
+NARMA10,Single-lattice,70,0.99935414849562
+NARMA10,Single-lattice,71,0.999560580649597
+NARMA10,Single-lattice,72,0.999757283236209
+NARMA10,Single-lattice,73,0.999943084616281
+NARMA10,Single-lattice,74,1
+NARMA10,Multi-lattice fusion,1,0.114267835907692
+NARMA10,Multi-lattice fusion,2,0.197881885004496
+NARMA10,Multi-lattice fusion,3,0.274136300475161
+NARMA10,Multi-lattice fusion,4,0.344378152174208
+NARMA10,Multi-lattice fusion,5,0.401077439668275
+NARMA10,Multi-lattice fusion,6,0.456170363032199
+NARMA10,Multi-lattice fusion,7,0.508832519694939
+NARMA10,Multi-lattice fusion,8,0.55091458837223
+NARMA10,Multi-lattice fusion,9,0.588971755999571
+NARMA10,Multi-lattice fusion,10,0.624511586327112
+NARMA10,Multi-lattice fusion,11,0.655586576823524
+NARMA10,Multi-lattice fusion,12,0.684581225186417
+NARMA10,Multi-lattice fusion,13,0.712235088185356
+NARMA10,Multi-lattice fusion,14,0.735081134527832
+NARMA10,Multi-lattice fusion,15,0.753839391287699
+NARMA10,Multi-lattice fusion,16,0.770313453448847
+NARMA10,Multi-lattice fusion,17,0.784297674484897
+NARMA10,Multi-lattice fusion,18,0.797792004374015
+NARMA10,Multi-lattice fusion,19,0.810181334925175
+NARMA10,Multi-lattice fusion,20,0.820958630587478
+NARMA10,Multi-lattice fusion,21,0.831018500729107
+NARMA10,Multi-lattice fusion,22,0.840458649302374
+NARMA10,Multi-lattice fusion,23,0.849473838288882
+NARMA10,Multi-lattice fusion,24,0.857966827492131
+NARMA10,Multi-lattice fusion,25,0.865984780637694
+NARMA10,Multi-lattice fusion,26,0.873645258189184
+NARMA10,Multi-lattice fusion,27,0.880605471274197
+NARMA10,Multi-lattice fusion,28,0.887244811143467
+NARMA10,Multi-lattice fusion,29,0.893488535525844
+NARMA10,Multi-lattice fusion,30,0.899285486674823
+NARMA10,Multi-lattice fusion,31,0.904996596487589
+NARMA10,Multi-lattice fusion,32,0.91038201319606
+NARMA10,Multi-lattice fusion,33,0.915273112492975
+NARMA10,Multi-lattice fusion,34,0.919724738296168
+NARMA10,Multi-lattice fusion,35,0.923463278877127
+NARMA10,Multi-lattice fusion,36,0.92709183792724
+NARMA10,Multi-lattice fusion,37,0.930438659240576
+NARMA10,Multi-lattice fusion,38,0.933737248391863
+NARMA10,Multi-lattice fusion,39,0.936922586167169
+NARMA10,Multi-lattice fusion,40,0.939880251939392
+NARMA10,Multi-lattice fusion,41,0.942504480218317
+NARMA10,Multi-lattice fusion,42,0.945042575010625
+NARMA10,Multi-lattice fusion,43,0.947200680578936
+NARMA10,Multi-lattice fusion,44,0.949142044332503
+NARMA10,Multi-lattice fusion,45,0.950902833239654
+NARMA10,Multi-lattice fusion,46,0.95258535202311
+NARMA10,Multi-lattice fusion,47,0.954172090887002
+NARMA10,Multi-lattice fusion,48,0.955649741070507
+NARMA10,Multi-lattice fusion,49,0.956996956652598
+NARMA10,Multi-lattice fusion,50,0.958296482268299
+NARMA10,Multi-lattice fusion,51,0.959531587373203
+NARMA10,Multi-lattice fusion,52,0.960758103726932
+NARMA10,Multi-lattice fusion,53,0.961870376337859
+NARMA10,Multi-lattice fusion,54,0.962954560958471
+NARMA10,Multi-lattice fusion,55,0.963968548597445
+NARMA10,Multi-lattice fusion,56,0.964961684282327
+NARMA10,Multi-lattice fusion,57,0.965864296283063
+NARMA10,Multi-lattice fusion,58,0.966753056701965
+NARMA10,Multi-lattice fusion,59,0.967580779795805
+NARMA10,Multi-lattice fusion,60,0.96839114066676
+NARMA10,Multi-lattice fusion,61,0.969187393464672
+NARMA10,Multi-lattice fusion,62,0.969968848394722
+NARMA10,Multi-lattice fusion,63,0.970716690015464
+NARMA10,Multi-lattice fusion,64,0.971439332298953
+NARMA10,Multi-lattice fusion,65,0.972135361608705
+NARMA10,Multi-lattice fusion,66,0.972821283251846
+NARMA10,Multi-lattice fusion,67,0.973483227642127
+NARMA10,Multi-lattice fusion,68,0.974130835963982
+NARMA10,Multi-lattice fusion,69,0.974739188234539
+NARMA10,Multi-lattice fusion,70,0.975337196345281
+NARMA10,Multi-lattice fusion,71,0.975924419566569
+NARMA10,Multi-lattice fusion,72,0.97650537445849
+NARMA10,Multi-lattice fusion,73,0.977070737843977
+NARMA10,Multi-lattice fusion,74,0.977609369768586
+NARMA10,Multi-lattice fusion,75,0.978135433025678
+NARMA10,Multi-lattice fusion,76,0.978648604688933
+NARMA10,Multi-lattice fusion,77,0.979155208502838
+NARMA10,Multi-lattice fusion,78,0.979646229003236
+NARMA10,Multi-lattice fusion,79,0.980119766888724
+NARMA10,Multi-lattice fusion,80,0.980586987949936
+NARMA10,Multi-lattice fusion,81,0.981048989923787
+NARMA10,Multi-lattice fusion,82,0.981494685177869
+NARMA10,Multi-lattice fusion,83,0.981931151559168
+NARMA10,Multi-lattice fusion,84,0.982347931182942
+NARMA10,Multi-lattice fusion,85,0.982758159866571
+NARMA10,Multi-lattice fusion,86,0.983149915377893
+NARMA10,Multi-lattice fusion,87,0.983536861581814
+NARMA10,Multi-lattice fusion,88,0.983918175976065
+NARMA10,Multi-lattice fusion,89,0.984290253689091
+NARMA10,Multi-lattice fusion,90,0.984649867768397
+NARMA10,Multi-lattice fusion,91,0.984998833747548
+NARMA10,Multi-lattice fusion,92,0.985341863692036
+NARMA10,Multi-lattice fusion,93,0.985681389629383
+NARMA10,Multi-lattice fusion,94,0.986015316391146
+NARMA10,Multi-lattice fusion,95,0.986335561245631
+NARMA10,Multi-lattice fusion,96,0.986638422658579
+NARMA10,Multi-lattice fusion,97,0.986936652093919
+NARMA10,Multi-lattice fusion,98,0.987234005171883
+NARMA10,Multi-lattice fusion,99,0.987523084054752
+NARMA10,Multi-lattice fusion,100,0.987806887926431
+NARMA10,Multi-lattice fusion,101,0.988081967237233
+NARMA10,Multi-lattice fusion,102,0.988353971660005
+NARMA10,Multi-lattice fusion,103,0.988614977648575
+NARMA10,Multi-lattice fusion,104,0.988871052236339
+NARMA10,Multi-lattice fusion,105,0.989123223948269
+NARMA10,Multi-lattice fusion,106,0.989367921156769
+NARMA10,Multi-lattice fusion,107,0.989606300011945
+NARMA10,Multi-lattice fusion,108,0.989838081986575
+NARMA10,Multi-lattice fusion,109,0.99006429807103
+NARMA10,Multi-lattice fusion,110,0.99028833580006
+NARMA10,Multi-lattice fusion,111,0.990505954464563
+NARMA10,Multi-lattice fusion,112,0.990720443020343
+NARMA10,Multi-lattice fusion,113,0.990930502157582
+NARMA10,Multi-lattice fusion,114,0.991132713708525
+NARMA10,Multi-lattice fusion,115,0.991333524820004
+NARMA10,Multi-lattice fusion,116,0.991528797295458
+NARMA10,Multi-lattice fusion,117,0.991721906022728
+NARMA10,Multi-lattice fusion,118,0.991910286329683
+NARMA10,Multi-lattice fusion,119,0.99209350385281
+NARMA10,Multi-lattice fusion,120,0.992274125061954
+NARMA10,Multi-lattice fusion,121,0.992454472059032
+NARMA10,Multi-lattice fusion,122,0.99263086441773
+NARMA10,Multi-lattice fusion,123,0.992801357520695
+NARMA10,Multi-lattice fusion,124,0.992970857227467
+NARMA10,Multi-lattice fusion,125,0.99313604697664
+NARMA10,Multi-lattice fusion,126,0.993298660698743
+NARMA10,Multi-lattice fusion,127,0.993459110290126
+NARMA10,Multi-lattice fusion,128,0.993616001984885
+NARMA10,Multi-lattice fusion,129,0.993769371220138
+NARMA10,Multi-lattice fusion,130,0.99391795041363
+NARMA10,Multi-lattice fusion,131,0.994064758958543
+NARMA10,Multi-lattice fusion,132,0.994210521247128
+NARMA10,Multi-lattice fusion,133,0.994352732976111
+NARMA10,Multi-lattice fusion,134,0.994493045939376
+NARMA10,Multi-lattice fusion,135,0.994631694239517
+NARMA10,Multi-lattice fusion,136,0.994765767721592
+NARMA10,Multi-lattice fusion,137,0.994897037097625
+NARMA10,Multi-lattice fusion,138,0.995025957297713
+NARMA10,Multi-lattice fusion,139,0.995153363741279
+NARMA10,Multi-lattice fusion,140,0.995277601225134
+NARMA10,Multi-lattice fusion,141,0.995399271432282
+NARMA10,Multi-lattice fusion,142,0.995519011517235
+NARMA10,Multi-lattice fusion,143,0.99563710863234
+NARMA10,Multi-lattice fusion,144,0.995752207478669
+NARMA10,Multi-lattice fusion,145,0.995865867681649
+NARMA10,Multi-lattice fusion,146,0.99597716295431
+NARMA10,Multi-lattice fusion,147,0.996085561693954
+NARMA10,Multi-lattice fusion,148,0.996192689732161
+NARMA10,Multi-lattice fusion,149,0.996297912366542
+NARMA10,Multi-lattice fusion,150,0.996399369230215
+NARMA10,Multi-lattice fusion,151,0.996499639689145
+NARMA10,Multi-lattice fusion,152,0.996596988208514
+NARMA10,Multi-lattice fusion,153,0.996693880915715
+NARMA10,Multi-lattice fusion,154,0.996788263133633
+NARMA10,Multi-lattice fusion,155,0.996879368216858
+NARMA10,Multi-lattice fusion,156,0.99696972866752
+NARMA10,Multi-lattice fusion,157,0.997059677287864
+NARMA10,Multi-lattice fusion,158,0.997147896002396
+NARMA10,Multi-lattice fusion,159,0.997234992664509
+NARMA10,Multi-lattice fusion,160,0.997318583396437
+NARMA10,Multi-lattice fusion,161,0.997401016021257
+NARMA10,Multi-lattice fusion,162,0.997482380801373
+NARMA10,Multi-lattice fusion,163,0.99756275839192
+NARMA10,Multi-lattice fusion,164,0.997638942499914
+NARMA10,Multi-lattice fusion,165,0.997714069766744
+NARMA10,Multi-lattice fusion,166,0.997787912519973
+NARMA10,Multi-lattice fusion,167,0.997860573287504
+NARMA10,Multi-lattice fusion,168,0.997931186667935
+NARMA10,Multi-lattice fusion,169,0.998000765132234
+NARMA10,Multi-lattice fusion,170,0.998068599953952
+NARMA10,Multi-lattice fusion,171,0.998135136756967
+NARMA10,Multi-lattice fusion,172,0.998199418813319
+NARMA10,Multi-lattice fusion,173,0.998262554944904
+NARMA10,Multi-lattice fusion,174,0.99832436422586
+NARMA10,Multi-lattice fusion,175,0.998384495863715
+NARMA10,Multi-lattice fusion,176,0.998444438436072
+NARMA10,Multi-lattice fusion,177,0.998502738381341
+NARMA10,Multi-lattice fusion,178,0.998559010250042
+NARMA10,Multi-lattice fusion,179,0.998613850915561
+NARMA10,Multi-lattice fusion,180,0.998667665761481
+NARMA10,Multi-lattice fusion,181,0.998720689705948
+NARMA10,Multi-lattice fusion,182,0.998772688547019
+NARMA10,Multi-lattice fusion,183,0.998823705636402
+NARMA10,Multi-lattice fusion,184,0.99887371606218
+NARMA10,Multi-lattice fusion,185,0.998922082810754
+NARMA10,Multi-lattice fusion,186,0.998969448095557
+NARMA10,Multi-lattice fusion,187,0.999016713720965
+NARMA10,Multi-lattice fusion,188,0.999061846554611
+NARMA10,Multi-lattice fusion,189,0.999106193819888
+NARMA10,Multi-lattice fusion,190,0.999150055605348
+NARMA10,Multi-lattice fusion,191,0.99919219775569
+NARMA10,Multi-lattice fusion,192,0.999233996509571
+NARMA10,Multi-lattice fusion,193,0.99927483594749
+NARMA10,Multi-lattice fusion,194,0.999315371856045
+NARMA10,Multi-lattice fusion,195,0.999353945194237
+NARMA10,Multi-lattice fusion,196,0.999391278896087
+NARMA10,Multi-lattice fusion,197,0.999427790442961
+NARMA10,Multi-lattice fusion,198,0.999463394302677
+NARMA10,Multi-lattice fusion,199,0.999498039260818
+NARMA10,Multi-lattice fusion,200,0.999530643695435
+NARMA10,Multi-lattice fusion,201,0.999563060697221
+NARMA10,Multi-lattice fusion,202,0.9995945008256
+NARMA10,Multi-lattice fusion,203,0.999625059449797
+NARMA10,Multi-lattice fusion,204,0.999653946780042
+NARMA10,Multi-lattice fusion,205,0.999682011700209
+NARMA10,Multi-lattice fusion,206,0.999708478957778
+NARMA10,Multi-lattice fusion,207,0.999734726488809
+NARMA10,Multi-lattice fusion,208,0.999760427065725
+NARMA10,Multi-lattice fusion,209,0.999784977716006
+NARMA10,Multi-lattice fusion,210,0.999809279984385
+NARMA10,Multi-lattice fusion,211,0.99983138362843
+NARMA10,Multi-lattice fusion,212,0.999852924863569
+NARMA10,Multi-lattice fusion,213,0.999873475010958
+NARMA10,Multi-lattice fusion,214,0.999893345521046
+NARMA10,Multi-lattice fusion,215,0.999912238179925
+NARMA10,Multi-lattice fusion,216,0.999930664779885
+NARMA10,Multi-lattice fusion,217,0.999947772581455
+NARMA10,Multi-lattice fusion,218,0.9999641308512
+NARMA10,Multi-lattice fusion,219,0.999979307849119
+NARMA10,Multi-lattice fusion,220,0.999992903730172
+NARMA10,Multi-lattice fusion,221,1
+Lorenz63,Single-lattice,1,0.207731075236054
+Lorenz63,Single-lattice,2,0.361299565641972
+Lorenz63,Single-lattice,3,0.468012789618938
+Lorenz63,Single-lattice,4,0.551047680218724
+Lorenz63,Single-lattice,5,0.602819994223794
+Lorenz63,Single-lattice,6,0.649173053156611
+Lorenz63,Single-lattice,7,0.691441809038735
+Lorenz63,Single-lattice,8,0.724996881575618
+Lorenz63,Single-lattice,9,0.753219335475165
+Lorenz63,Single-lattice,10,0.779337137027475
+Lorenz63,Single-lattice,11,0.804961596349535
+Lorenz63,Single-lattice,12,0.827767637265122
+Lorenz63,Single-lattice,13,0.849264106624087
+Lorenz63,Single-lattice,14,0.867425471649644
+Lorenz63,Single-lattice,15,0.884565393912175
+Lorenz63,Single-lattice,16,0.899894232009867
+Lorenz63,Single-lattice,17,0.913713111137299
+Lorenz63,Single-lattice,18,0.925467581060433
+Lorenz63,Single-lattice,19,0.936046697507056
+Lorenz63,Single-lattice,20,0.944998242221786
+Lorenz63,Single-lattice,21,0.952798199362595
+Lorenz63,Single-lattice,22,0.959850769946729
+Lorenz63,Single-lattice,23,0.965337769650498
+Lorenz63,Single-lattice,24,0.970400342007578
+Lorenz63,Single-lattice,25,0.973734356816555
+Lorenz63,Single-lattice,26,0.976805637138736
+Lorenz63,Single-lattice,27,0.979425749822133
+Lorenz63,Single-lattice,28,0.981859382854695
+Lorenz63,Single-lattice,29,0.983457479775367
+Lorenz63,Single-lattice,30,0.984917956389046
+Lorenz63,Single-lattice,31,0.986140344035936
+Lorenz63,Single-lattice,32,0.986987031010609
+Lorenz63,Single-lattice,33,0.987774643467149
+Lorenz63,Single-lattice,34,0.988476734083886
+Lorenz63,Single-lattice,35,0.989133612691191
+Lorenz63,Single-lattice,36,0.98969985482171
+Lorenz63,Single-lattice,37,0.990225841985286
+Lorenz63,Single-lattice,38,0.99070824118541
+Lorenz63,Single-lattice,39,0.991162575585248
+Lorenz63,Single-lattice,40,0.991578098400338
+Lorenz63,Single-lattice,41,0.991980207019828
+Lorenz63,Single-lattice,42,0.992355823555019
+Lorenz63,Single-lattice,43,0.992706395529075
+Lorenz63,Single-lattice,44,0.993051639266216
+Lorenz63,Single-lattice,45,0.993372999037504
+Lorenz63,Single-lattice,46,0.993677830909507
+Lorenz63,Single-lattice,47,0.993971684379812
+Lorenz63,Single-lattice,48,0.994253917211808
+Lorenz63,Single-lattice,49,0.99452536950356
+Lorenz63,Single-lattice,50,0.994770348782355
+Lorenz63,Single-lattice,51,0.995010992870416
+Lorenz63,Single-lattice,52,0.995243772345707
+Lorenz63,Single-lattice,53,0.995466041546002
+Lorenz63,Single-lattice,54,0.995680388330021
+Lorenz63,Single-lattice,55,0.995890673517402
+Lorenz63,Single-lattice,56,0.996089291600026
+Lorenz63,Single-lattice,57,0.996284895966007
+Lorenz63,Single-lattice,58,0.996471028289081
+Lorenz63,Single-lattice,59,0.996648546865203
+Lorenz63,Single-lattice,60,0.996806629167196
+Lorenz63,Single-lattice,61,0.996961240262575
+Lorenz63,Single-lattice,62,0.997110938676236
+Lorenz63,Single-lattice,63,0.997256416463115
+Lorenz63,Single-lattice,64,0.99739619985863
+Lorenz63,Single-lattice,65,0.997529157455077
+Lorenz63,Single-lattice,66,0.997654007896692
+Lorenz63,Single-lattice,67,0.997774197660148
+Lorenz63,Single-lattice,68,0.997887899690673
+Lorenz63,Single-lattice,69,0.997995250417389
+Lorenz63,Single-lattice,70,0.998099765188714
+Lorenz63,Single-lattice,71,0.998201912875391
+Lorenz63,Single-lattice,72,0.998299247843645
+Lorenz63,Single-lattice,73,0.998393964713333
+Lorenz63,Single-lattice,74,0.998484011366294
+Lorenz63,Single-lattice,75,0.99856960324622
+Lorenz63,Single-lattice,76,0.998652000978923
+Lorenz63,Single-lattice,77,0.998732269368474
+Lorenz63,Single-lattice,78,0.998809529271605
+Lorenz63,Single-lattice,79,0.998883104509963
+Lorenz63,Single-lattice,80,0.998956496719994
+Lorenz63,Single-lattice,81,0.999027667916883
+Lorenz63,Single-lattice,82,0.999096659118416
+Lorenz63,Single-lattice,83,0.999164247010631
+Lorenz63,Single-lattice,84,0.999228513001666
+Lorenz63,Single-lattice,85,0.999290309610493
+Lorenz63,Single-lattice,86,0.999350622439232
+Lorenz63,Single-lattice,87,0.999408994903429
+Lorenz63,Single-lattice,88,0.999464832257638
+Lorenz63,Single-lattice,89,0.999518767912908
+Lorenz63,Single-lattice,90,0.999568628780819
+Lorenz63,Single-lattice,91,0.999616222120445
+Lorenz63,Single-lattice,92,0.999660648294939
+Lorenz63,Single-lattice,93,0.999703300429835
+Lorenz63,Single-lattice,94,0.999741992562996
+Lorenz63,Single-lattice,95,0.999776303154589
+Lorenz63,Single-lattice,96,0.99980905503053
+Lorenz63,Single-lattice,97,0.999837808221962
+Lorenz63,Single-lattice,98,0.999865799087551
+Lorenz63,Single-lattice,99,0.999891872836483
+Lorenz63,Single-lattice,100,0.99991549035586
+Lorenz63,Single-lattice,101,0.999935805668615
+Lorenz63,Single-lattice,102,0.999954814465374
+Lorenz63,Single-lattice,103,0.999972184490876
+Lorenz63,Single-lattice,104,0.999987322825425
+Lorenz63,Single-lattice,105,1
+Lorenz63,Multi-lattice fusion,1,0.243946048589497
+Lorenz63,Multi-lattice fusion,2,0.442725779126317
+Lorenz63,Multi-lattice fusion,3,0.507560634471791
+Lorenz63,Multi-lattice fusion,4,0.566484607667785
+Lorenz63,Multi-lattice fusion,5,0.619978975502395
+Lorenz63,Multi-lattice fusion,6,0.657843595169754
+Lorenz63,Multi-lattice fusion,7,0.690765919697893
+Lorenz63,Multi-lattice fusion,8,0.71821677717933
+Lorenz63,Multi-lattice fusion,9,0.74083112468199
+Lorenz63,Multi-lattice fusion,10,0.759464187842992
+Lorenz63,Multi-lattice fusion,11,0.777632037492703
+Lorenz63,Multi-lattice fusion,12,0.794408914534657
+Lorenz63,Multi-lattice fusion,13,0.808940549883524
+Lorenz63,Multi-lattice fusion,14,0.82233337025553
+Lorenz63,Multi-lattice fusion,15,0.833729532828672
+Lorenz63,Multi-lattice fusion,16,0.843602635640243
+Lorenz63,Multi-lattice fusion,17,0.853311160601646
+Lorenz63,Multi-lattice fusion,18,0.861449671299522
+Lorenz63,Multi-lattice fusion,19,0.868737295840576
+Lorenz63,Multi-lattice fusion,20,0.875529002407162
+Lorenz63,Multi-lattice fusion,21,0.882066205623622
+Lorenz63,Multi-lattice fusion,22,0.88774053680589
+Lorenz63,Multi-lattice fusion,23,0.893167602699029
+Lorenz63,Multi-lattice fusion,24,0.898187735815072
+Lorenz63,Multi-lattice fusion,25,0.902946788480803
+Lorenz63,Multi-lattice fusion,26,0.907603533514034
+Lorenz63,Multi-lattice fusion,27,0.912053480599524
+Lorenz63,Multi-lattice fusion,28,0.916032168807095
+Lorenz63,Multi-lattice fusion,29,0.919847393574382
+Lorenz63,Multi-lattice fusion,30,0.923397249781476
+Lorenz63,Multi-lattice fusion,31,0.926762583290023
+Lorenz63,Multi-lattice fusion,32,0.929972711411523
+Lorenz63,Multi-lattice fusion,33,0.93308404950873
+Lorenz63,Multi-lattice fusion,34,0.936039548538958
+Lorenz63,Multi-lattice fusion,35,0.938737488220623
+Lorenz63,Multi-lattice fusion,36,0.941372874070105
+Lorenz63,Multi-lattice fusion,37,0.943888322010908
+Lorenz63,Multi-lattice fusion,38,0.946391670844272
+Lorenz63,Multi-lattice fusion,39,0.9487168247878
+Lorenz63,Multi-lattice fusion,40,0.951003543271878
+Lorenz63,Multi-lattice fusion,41,0.953186521486182
+Lorenz63,Multi-lattice fusion,42,0.955261798469424
+Lorenz63,Multi-lattice fusion,43,0.957279426340361
+Lorenz63,Multi-lattice fusion,44,0.95924150473428
+Lorenz63,Multi-lattice fusion,45,0.961092644424979
+Lorenz63,Multi-lattice fusion,46,0.962759520399205
+Lorenz63,Multi-lattice fusion,47,0.964378630003096
+Lorenz63,Multi-lattice fusion,48,0.965814800381478
+Lorenz63,Multi-lattice fusion,49,0.967175952261848
+Lorenz63,Multi-lattice fusion,50,0.968476111104365
+Lorenz63,Multi-lattice fusion,51,0.96974236910276
+Lorenz63,Multi-lattice fusion,52,0.970955469320611
+Lorenz63,Multi-lattice fusion,53,0.972117263201408
+Lorenz63,Multi-lattice fusion,54,0.973252979915041
+Lorenz63,Multi-lattice fusion,55,0.974336896230749
+Lorenz63,Multi-lattice fusion,56,0.975372701785229
+Lorenz63,Multi-lattice fusion,57,0.976320736761841
+Lorenz63,Multi-lattice fusion,58,0.97724336443043
+Lorenz63,Multi-lattice fusion,59,0.97815325615604
+Lorenz63,Multi-lattice fusion,60,0.97901672627328
+Lorenz63,Multi-lattice fusion,61,0.979851719473328
+Lorenz63,Multi-lattice fusion,62,0.980662260848257
+Lorenz63,Multi-lattice fusion,63,0.981423063803041
+Lorenz63,Multi-lattice fusion,64,0.982135918480125
+Lorenz63,Multi-lattice fusion,65,0.982820702204752
+Lorenz63,Multi-lattice fusion,66,0.983435362951897
+Lorenz63,Multi-lattice fusion,67,0.984012847841913
+Lorenz63,Multi-lattice fusion,68,0.984557150298772
+Lorenz63,Multi-lattice fusion,69,0.985081471632136
+Lorenz63,Multi-lattice fusion,70,0.985586147197033
+Lorenz63,Multi-lattice fusion,71,0.986076759236353
+Lorenz63,Multi-lattice fusion,72,0.986528389198412
+Lorenz63,Multi-lattice fusion,73,0.986977106466044
+Lorenz63,Multi-lattice fusion,74,0.987403043634713
+Lorenz63,Multi-lattice fusion,75,0.987791175507482
+Lorenz63,Multi-lattice fusion,76,0.988173022400321
+Lorenz63,Multi-lattice fusion,77,0.988539272805258
+Lorenz63,Multi-lattice fusion,78,0.988899203037081
+Lorenz63,Multi-lattice fusion,79,0.989243738501799
+Lorenz63,Multi-lattice fusion,80,0.989562953267755
+Lorenz63,Multi-lattice fusion,81,0.989879673498404
+Lorenz63,Multi-lattice fusion,82,0.9901592973021
+Lorenz63,Multi-lattice fusion,83,0.990424939940569
+Lorenz63,Multi-lattice fusion,84,0.990675827261777
+Lorenz63,Multi-lattice fusion,85,0.990919616047933
+Lorenz63,Multi-lattice fusion,86,0.991152202174142
+Lorenz63,Multi-lattice fusion,87,0.991378926377021
+Lorenz63,Multi-lattice fusion,88,0.991588786028816
+Lorenz63,Multi-lattice fusion,89,0.991796471163776
+Lorenz63,Multi-lattice fusion,90,0.99199769954277
+Lorenz63,Multi-lattice fusion,91,0.992195288961259
+Lorenz63,Multi-lattice fusion,92,0.992386656840139
+Lorenz63,Multi-lattice fusion,93,0.992570404327887
+Lorenz63,Multi-lattice fusion,94,0.992752105965969
+Lorenz63,Multi-lattice fusion,95,0.992931767115036
+Lorenz63,Multi-lattice fusion,96,0.993104879728719
+Lorenz63,Multi-lattice fusion,97,0.993273107515268
+Lorenz63,Multi-lattice fusion,98,0.993431718524392
+Lorenz63,Multi-lattice fusion,99,0.993583436631146
+Lorenz63,Multi-lattice fusion,100,0.993731529732754
+Lorenz63,Multi-lattice fusion,101,0.993875273610867
+Lorenz63,Multi-lattice fusion,102,0.994009393166108
+Lorenz63,Multi-lattice fusion,103,0.994141019745567
+Lorenz63,Multi-lattice fusion,104,0.994268767388123
+Lorenz63,Multi-lattice fusion,105,0.994393958017914
+Lorenz63,Multi-lattice fusion,106,0.994513111575725
+Lorenz63,Multi-lattice fusion,107,0.994630872363427
+Lorenz63,Multi-lattice fusion,108,0.994747955731646
+Lorenz63,Multi-lattice fusion,109,0.994862587704153
+Lorenz63,Multi-lattice fusion,110,0.994972610302069
+Lorenz63,Multi-lattice fusion,111,0.995080925067044
+Lorenz63,Multi-lattice fusion,112,0.995186344088986
+Lorenz63,Multi-lattice fusion,113,0.995289640958796
+Lorenz63,Multi-lattice fusion,114,0.995389771841578
+Lorenz63,Multi-lattice fusion,115,0.995488053195702
+Lorenz63,Multi-lattice fusion,116,0.995581736001007
+Lorenz63,Multi-lattice fusion,117,0.99567496244661
+Lorenz63,Multi-lattice fusion,118,0.995765609302491
+Lorenz63,Multi-lattice fusion,119,0.995855128032806
+Lorenz63,Multi-lattice fusion,120,0.995940652703569
+Lorenz63,Multi-lattice fusion,121,0.996025143560281
+Lorenz63,Multi-lattice fusion,122,0.996108054503258
+Lorenz63,Multi-lattice fusion,123,0.996188868148196
+Lorenz63,Multi-lattice fusion,124,0.996269073260894
+Lorenz63,Multi-lattice fusion,125,0.996346841817509
+Lorenz63,Multi-lattice fusion,126,0.996422613957646
+Lorenz63,Multi-lattice fusion,127,0.996496988677995
+Lorenz63,Multi-lattice fusion,128,0.996570339000159
+Lorenz63,Multi-lattice fusion,129,0.996641843872116
+Lorenz63,Multi-lattice fusion,130,0.996712952596929
+Lorenz63,Multi-lattice fusion,131,0.996783251316979
+Lorenz63,Multi-lattice fusion,132,0.99685073417432
+Lorenz63,Multi-lattice fusion,133,0.99691500284134
+Lorenz63,Multi-lattice fusion,134,0.996978415751479
+Lorenz63,Multi-lattice fusion,135,0.997040956946723
+Lorenz63,Multi-lattice fusion,136,0.997101294759953
+Lorenz63,Multi-lattice fusion,137,0.997160295431096
+Lorenz63,Multi-lattice fusion,138,0.997218402968269
+Lorenz63,Multi-lattice fusion,139,0.997275529201447
+Lorenz63,Multi-lattice fusion,140,0.997332395383686
+Lorenz63,Multi-lattice fusion,141,0.997387475003865
+Lorenz63,Multi-lattice fusion,142,0.997442434594898
+Lorenz63,Multi-lattice fusion,143,0.997496119503112
+Lorenz63,Multi-lattice fusion,144,0.997549212970937
+Lorenz63,Multi-lattice fusion,145,0.997601454969402
+Lorenz63,Multi-lattice fusion,146,0.997650452933292
+Lorenz63,Multi-lattice fusion,147,0.997699072784921
+Lorenz63,Multi-lattice fusion,148,0.997746342587178
+Lorenz63,Multi-lattice fusion,149,0.997793098762838
+Lorenz63,Multi-lattice fusion,150,0.997839452347321
+Lorenz63,Multi-lattice fusion,151,0.997885138318343
+Lorenz63,Multi-lattice fusion,152,0.997930190523799
+Lorenz63,Multi-lattice fusion,153,0.9979736479014
+Lorenz63,Multi-lattice fusion,154,0.99801595708005
+Lorenz63,Multi-lattice fusion,155,0.998058076145612
+Lorenz63,Multi-lattice fusion,156,0.998099838237035
+Lorenz63,Multi-lattice fusion,157,0.998140979681283
+Lorenz63,Multi-lattice fusion,158,0.998181347021807
+Lorenz63,Multi-lattice fusion,159,0.998220838144066
+Lorenz63,Multi-lattice fusion,160,0.998260055716029
+Lorenz63,Multi-lattice fusion,161,0.998298234084909
+Lorenz63,Multi-lattice fusion,162,0.998335843502903
+Lorenz63,Multi-lattice fusion,163,0.998373014226432
+Lorenz63,Multi-lattice fusion,164,0.998408939488161
+Lorenz63,Multi-lattice fusion,165,0.998444646357039
+Lorenz63,Multi-lattice fusion,166,0.998479652248968
+Lorenz63,Multi-lattice fusion,167,0.998513255879039
+Lorenz63,Multi-lattice fusion,168,0.998546510376047
+Lorenz63,Multi-lattice fusion,169,0.998579187220703
+Lorenz63,Multi-lattice fusion,170,0.998611652072216
+Lorenz63,Multi-lattice fusion,171,0.998642931921171
+Lorenz63,Multi-lattice fusion,172,0.998674088147684
+Lorenz63,Multi-lattice fusion,173,0.998704359578366
+Lorenz63,Multi-lattice fusion,174,0.9987342019119
+Lorenz63,Multi-lattice fusion,175,0.998763519400632
+Lorenz63,Multi-lattice fusion,176,0.998792355579328
+Lorenz63,Multi-lattice fusion,177,0.998820699983655
+Lorenz63,Multi-lattice fusion,178,0.998848656460029
+Lorenz63,Multi-lattice fusion,179,0.998876381581767
+Lorenz63,Multi-lattice fusion,180,0.998903379265828
+Lorenz63,Multi-lattice fusion,181,0.99892982042504
+Lorenz63,Multi-lattice fusion,182,0.998955982634993
+Lorenz63,Multi-lattice fusion,183,0.998981746093938
+Lorenz63,Multi-lattice fusion,184,0.999007135861708
+Lorenz63,Multi-lattice fusion,185,0.999032371674772
+Lorenz63,Multi-lattice fusion,186,0.999056544585195
+Lorenz63,Multi-lattice fusion,187,0.999080155525312
+Lorenz63,Multi-lattice fusion,188,0.999103002335425
+Lorenz63,Multi-lattice fusion,189,0.999125388267241
+Lorenz63,Multi-lattice fusion,190,0.999147545725659
+Lorenz63,Multi-lattice fusion,191,0.999169257732556
+Lorenz63,Multi-lattice fusion,192,0.999190884858999
+Lorenz63,Multi-lattice fusion,193,0.999211466255737
+Lorenz63,Multi-lattice fusion,194,0.999231543339232
+Lorenz63,Multi-lattice fusion,195,0.999251296956536
+Lorenz63,Multi-lattice fusion,196,0.999270757793815
+Lorenz63,Multi-lattice fusion,197,0.999289842398848
+Lorenz63,Multi-lattice fusion,198,0.999308825427853
+Lorenz63,Multi-lattice fusion,199,0.999327333440677
+Lorenz63,Multi-lattice fusion,200,0.999345358692546
+Lorenz63,Multi-lattice fusion,201,0.999363121593265
+Lorenz63,Multi-lattice fusion,202,0.999380799893383
+Lorenz63,Multi-lattice fusion,203,0.999397815242767
+Lorenz63,Multi-lattice fusion,204,0.999414346277424
+Lorenz63,Multi-lattice fusion,205,0.999430670226514
+Lorenz63,Multi-lattice fusion,206,0.999446853092616
+Lorenz63,Multi-lattice fusion,207,0.999462656451195
+Lorenz63,Multi-lattice fusion,208,0.999478396617369
+Lorenz63,Multi-lattice fusion,209,0.999493888463718
+Lorenz63,Multi-lattice fusion,210,0.999508554236436
+Lorenz63,Multi-lattice fusion,211,0.999523068404657
+Lorenz63,Multi-lattice fusion,212,0.999537152188362
+Lorenz63,Multi-lattice fusion,213,0.999550845623915
+Lorenz63,Multi-lattice fusion,214,0.999564114168092
+Lorenz63,Multi-lattice fusion,215,0.999577220142999
+Lorenz63,Multi-lattice fusion,216,0.999590221337462
+Lorenz63,Multi-lattice fusion,217,0.999603099024441
+Lorenz63,Multi-lattice fusion,218,0.999615339382656
+Lorenz63,Multi-lattice fusion,219,0.999627419722673
+Lorenz63,Multi-lattice fusion,220,0.99963931077519
+Lorenz63,Multi-lattice fusion,221,0.999650870635658
+Lorenz63,Multi-lattice fusion,222,0.99966200659865
+Lorenz63,Multi-lattice fusion,223,0.999673019376888
+Lorenz63,Multi-lattice fusion,224,0.999683733381033
+Lorenz63,Multi-lattice fusion,225,0.999694164210851
+Lorenz63,Multi-lattice fusion,226,0.999704479578405
+Lorenz63,Multi-lattice fusion,227,0.999714478125459
+Lorenz63,Multi-lattice fusion,228,0.999724113385066
+Lorenz63,Multi-lattice fusion,229,0.999733691819815
+Lorenz63,Multi-lattice fusion,230,0.99974315180894
+Lorenz63,Multi-lattice fusion,231,0.999752395393004
+Lorenz63,Multi-lattice fusion,232,0.999761474336439
+Lorenz63,Multi-lattice fusion,233,0.999770045866114
+Lorenz63,Multi-lattice fusion,234,0.999778458308134
+Lorenz63,Multi-lattice fusion,235,0.999786715014191
+Lorenz63,Multi-lattice fusion,236,0.999794922168257
+Lorenz63,Multi-lattice fusion,237,0.999802942934475
+Lorenz63,Multi-lattice fusion,238,0.999810666195909
+Lorenz63,Multi-lattice fusion,239,0.999818164450256
+Lorenz63,Multi-lattice fusion,240,0.999825562758292
+Lorenz63,Multi-lattice fusion,241,0.999832814262966
+Lorenz63,Multi-lattice fusion,242,0.999839772357878
+Lorenz63,Multi-lattice fusion,243,0.999846484982657
+Lorenz63,Multi-lattice fusion,244,0.999853031738248
+Lorenz63,Multi-lattice fusion,245,0.999859381272418
+Lorenz63,Multi-lattice fusion,246,0.999865650986904
+Lorenz63,Multi-lattice fusion,247,0.999871763198444
+Lorenz63,Multi-lattice fusion,248,0.999877765874642
+Lorenz63,Multi-lattice fusion,249,0.999883706547238
+Lorenz63,Multi-lattice fusion,250,0.999889344002887
+Lorenz63,Multi-lattice fusion,251,0.999894857253673
+Lorenz63,Multi-lattice fusion,252,0.999900326018709
+Lorenz63,Multi-lattice fusion,253,0.999905609780453
+Lorenz63,Multi-lattice fusion,254,0.999910793138731
+Lorenz63,Multi-lattice fusion,255,0.999915915851767
+Lorenz63,Multi-lattice fusion,256,0.999920793689234
+Lorenz63,Multi-lattice fusion,257,0.999925560373671
+Lorenz63,Multi-lattice fusion,258,0.999930275277138
+Lorenz63,Multi-lattice fusion,259,0.999934844163155
+Lorenz63,Multi-lattice fusion,260,0.999939180935781
+Lorenz63,Multi-lattice fusion,261,0.999943356875774
+Lorenz63,Multi-lattice fusion,262,0.99994742048563
+Lorenz63,Multi-lattice fusion,263,0.99995117436071
+Lorenz63,Multi-lattice fusion,264,0.999954764916419
+Lorenz63,Multi-lattice fusion,265,0.999958262191253
+Lorenz63,Multi-lattice fusion,266,0.999961681705447
+Lorenz63,Multi-lattice fusion,267,0.999964998280552
+Lorenz63,Multi-lattice fusion,268,0.999968070079365
+Lorenz63,Multi-lattice fusion,269,0.999971053375623
+Lorenz63,Multi-lattice fusion,270,0.999973918821532
+Lorenz63,Multi-lattice fusion,271,0.999976493320164
+Lorenz63,Multi-lattice fusion,272,0.999978937298385
+Lorenz63,Multi-lattice fusion,273,0.999981239908161
+Lorenz63,Multi-lattice fusion,274,0.999983485217987
+Lorenz63,Multi-lattice fusion,275,0.999985650517806
+Lorenz63,Multi-lattice fusion,276,0.999987752558938
+Lorenz63,Multi-lattice fusion,277,0.999989737527621
+Lorenz63,Multi-lattice fusion,278,0.999991628322603
+Lorenz63,Multi-lattice fusion,279,0.999993506352965
+Lorenz63,Multi-lattice fusion,280,0.999995270987463
+Lorenz63,Multi-lattice fusion,281,0.999996912244337
+Lorenz63,Multi-lattice fusion,282,0.999998476416373
+Lorenz63,Multi-lattice fusion,283,0.999999999999999
