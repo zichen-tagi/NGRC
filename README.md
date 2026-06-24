@@ -4,10 +4,10 @@ This repository provides representative code accompanying the manuscript
 "Reconfigurable optical next-generation reservoir computing with synthetic
 temporal lattices".
 
-The included scripts are intended to document the computational workflow used in
-the manuscript, including optical-feature style matrix construction,
-multi-lattice feature fusion, ridge-readout training, benchmark metric
-calculation, feature-space diagnostics, and figure generation.
+The included scripts reproduce the manuscript's processed source-data results
+for the single-lattice benchmark predictions and multi-lattice feature-fusion
+analysis. They also document how the plotted Fig. 3 and Fig. 4 values are read,
+checked, and visualized from the submitted source-data files.
 
 ## Repository Contents
 
@@ -26,6 +26,10 @@ NGRC-code/
   data/
     source_data.zip
     figure_source_data/
+      Fig3a_raw_task_sequences.csv
+      Fig3b_SantaFe_single_lattice_prediction.csv
+      Fig3c_NARMA10_single_lattice_prediction.csv
+      Fig3d_Lorenz63_single_lattice_prediction.csv
       figure4bcd_source_data.csv
     supplementary_source_data/
       Supplementary_Fig2_peak_extraction_source.csv
@@ -42,28 +46,19 @@ matlab/demo_single_lattice_ngrc.m
 matlab/demo_multi_lattice_fusion_ngrc.m
 ```
 
-uses synthetic placeholder sequences and synthetic optical-like feature maps to
-illustrate the analysis pipeline. The single-lattice demo shows the basic
-optical NGRC workflow for one temporal-lattice configuration:
+read the processed source-data CSV files included in this repository. The
+single-lattice script reproduces the Fig. 3b-d prediction NMSE values:
 
-1. generation of a nonlinear benchmark sequence,
-2. construction of delayed input coordinates,
-3. generation of a single optical-like feature matrix,
-4. ridge-readout training,
-5. NMSE evaluation,
-6. entropy-based effective-rank calculation, and
-7. mean absolute pairwise feature-correlation calculation.
+- Santa Fe: `0.0325`,
+- NARMA10: `0.1099`,
+- Lorenz63: `0.0379`.
 
-The multi-lattice demo extends the same workflow by generating several
-distinct optical-like feature matrices, concatenating them before readout
-training, and comparing the single-lattice and fused multi-lattice results.
-The synthetic example keeps the per-lattice feature count modest so that the
-single-lattice branch does not saturate the toy task before the complementary
-lattice projections are added.
+The multi-lattice script reproduces the Fig. 4b-d benchmark and feature-space
+diagnostic values. The fused multi-lattice NMSE values are:
 
-These demos are not intended to reproduce the exact numerical results in the
-manuscript because they do not include the experimental oscilloscope waveform
-files.
+- Santa Fe: `0.0252`,
+- NARMA10: `0.0983`,
+- Lorenz63: `0.0184`.
 
 ## Figure Source Data
 
@@ -132,7 +127,8 @@ pip install numpy pandas matplotlib
 ## Data Availability Note
 
 Raw oscilloscope waveform files are not included in this lightweight code
-package because of their large file size. Processed source data required for the
-provided Fig. 4b-d plotting script and supplementary figure data are included.
+package because of their large file size. Processed source data required for
+the provided Fig. 3 single-lattice checks, Fig. 4b-d plotting script, and
+supplementary figure data are included.
 Additional experimental data can be made available according to the manuscript
 data-availability statement.

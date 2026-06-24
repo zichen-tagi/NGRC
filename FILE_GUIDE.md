@@ -8,8 +8,8 @@ a memory aid for the authors and for future maintenance.
 ### `README.md`
 
 Main public-facing repository description. It explains what the repository
-contains, how the MATLAB demos and Python plotting script should be used, and
-why raw oscilloscope waveform files are not included.
+contains, how the MATLAB and Python source-data reproduction scripts should be
+used, and why raw oscilloscope waveform files are not included.
 
 ### `FILE_GUIDE.md`
 
@@ -31,41 +31,32 @@ scientific Python dependencies needed to run the Fig. 4 plotting code:
 Git ignore rules. It prevents temporary files, cache files, and local generated
 artifacts from being accidentally committed.
 
-## MATLAB Demo Scripts
+## MATLAB Source-Data Scripts
 
 ### `matlab/demo_single_lattice_ngrc.m`
 
-Self-contained MATLAB demonstration of the single-lattice NGRC workflow. It uses
-synthetic placeholder sequences and synthetic optical-like feature matrices
-rather than raw experimental waveforms.
+MATLAB script for reproducing the Fig. 3b-d single-lattice NGRC prediction
+NMSE values from processed source-data CSV files.
 
 Main purpose:
 
-- demonstrate delayed-input construction,
-- generate a single optical-like feature matrix,
-- train a ridge readout,
-- compute NMSE,
-- compute entropy-based effective rank,
-- compute mean absolute pairwise feature correlation.
-
-This script is useful for explaining how the analysis pipeline works, but it is
-not intended to reproduce the exact experimental values in the manuscript.
+- read the Fig. 3 single-lattice prediction source data,
+- recompute NMSE from ground-truth and predicted traces,
+- verify the manuscript-rounded NMSE values,
+- plot short source-data prediction segments for visual checking.
 
 ### `matlab/demo_multi_lattice_fusion_ngrc.m`
 
-Self-contained MATLAB demonstration of multi-lattice feature fusion. It extends
-the single-lattice workflow by generating several distinct optical-like feature
-matrices, concatenating them, and comparing single-lattice and fused readouts.
+MATLAB script for reproducing the Fig. 4b-d multi-lattice fusion results from
+processed source-data CSV files.
 
 Main purpose:
 
-- illustrate multi-lattice feature concatenation,
-- compare single-lattice and fused feature spaces,
-- compute NMSE for both cases,
-- compute feature-rank and correlation diagnostics.
-
-Like the single-lattice demo, this is a representative workflow script rather
-than an exact experimental reproduction script.
+- read the Fig. 4b-d benchmark and feature-diagnostic source data,
+- report previous-best, single-lattice, and fused multi-lattice NMSE values,
+- report single-lattice and fused effective-rank values,
+- report single-lattice and fused mean absolute feature-correlation values,
+- plot the Fig. 4b-d grouped bar summaries.
 
 ## Python Figure Script
 
@@ -116,6 +107,31 @@ Main purpose:
 Compressed copy of the full processed source-data package for the manuscript.
 It includes main-figure source data, supplementary-figure source data, metadata,
 and source-data mapping files.
+
+### `data/figure_source_data/Fig3a_raw_task_sequences.csv`
+
+Processed source data for Fig. 3a raw task sequences.
+
+### `data/figure_source_data/Fig3b_SantaFe_single_lattice_prediction.csv`
+### `data/figure_source_data/Fig3c_NARMA10_single_lattice_prediction.csv`
+### `data/figure_source_data/Fig3d_Lorenz63_single_lattice_prediction.csv`
+
+Processed source data for Fig. 3b-d single-lattice prediction traces.
+
+Contains:
+
+- test-sample index,
+- task name,
+- ground-truth target,
+- single-lattice prediction,
+- ridge-only prediction where available,
+- single-lattice NMSE.
+
+Important current single-lattice NMSE values include:
+
+- Santa Fe: `0.0324936421595198`,
+- NARMA10: `0.109859383433717`,
+- Lorenz63: `0.0378913086942314`.
 
 ### `data/figure_source_data/figure4bcd_source_data.csv`
 
@@ -234,10 +250,10 @@ Standalone Fig. 4d mean absolute feature-correlation panel.
 ## Practical Notes
 
 - The repository is a lightweight public code and processed-data package.
-- The MATLAB demo scripts explain the workflow but do not reproduce the exact
-  experimental waveform processing.
-- Exact plotted source data for Fig. 4b-d and Supplementary Figs. 2-4 are
-  included.
+- The MATLAB scripts reproduce the exact processed source-data values for Fig.
+  3b-d and Fig. 4b-d.
+- Exact plotted source data for Fig. 3, Fig. 4b-d, and Supplementary Figs. 2-4
+  are included.
 - Raw oscilloscope waveform files are not included because of their large file
   size.
 - For manuscript submission, the fuller source-data archive is maintained
