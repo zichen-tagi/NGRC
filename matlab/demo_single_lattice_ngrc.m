@@ -10,7 +10,7 @@ rng(7);
 num_samples = 1800;
 train_len = 1200;
 memory_depth = 10;
-ridge_alpha = 1e-4;
+ridge_alpha = 1;
 
 [input_sequence, target_sequence] = make_synthetic_sequence(num_samples, memory_depth);
 delayed_inputs = make_delayed_inputs(input_sequence, num_samples, memory_depth);
@@ -19,7 +19,7 @@ delayed_inputs = make_delayed_inputs(input_sequence, num_samples, memory_depth);
 % In the experiment, this feature matrix is measured from one temporal-lattice
 % configuration. Here, deterministic random mixing and square-law detection
 % mimic interference in the lattice followed by photodetection.
-num_features = 60;
+num_features = 15;
 single_feature_matrix = make_lattice_features(delayed_inputs, num_features, 1);
 
 %% Train the ridge readout and evaluate prediction error
@@ -53,7 +53,7 @@ grid on;
 function [input_sequence, target_sequence] = make_synthetic_sequence(num_samples, memory_depth)
     input_sequence = 0.5 + 0.5 * sin((1:num_samples + memory_depth)' * 0.037);
     input_sequence = input_sequence + 0.08 * randn(size(input_sequence));
-    input_sequence = (input_sequence - min(input_sequence)) ...
+    input_sequence = 0.35 * (input_sequence - min(input_sequence)) ...
         / (max(input_sequence) - min(input_sequence));
 
     target_full = zeros(num_samples + memory_depth, 1);
@@ -125,4 +125,3 @@ function stats = feature_space_diagnostics(feature_matrix)
     correlation_values = abs(correlation_matrix(off_diagonal));
     stats.mean_abs_corr = mean(correlation_values(isfinite(correlation_values)));
 end
-

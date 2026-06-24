@@ -1,7 +1,8 @@
 # Optical NGRC Synthetic Temporal Lattice Code
 
 This repository provides representative code accompanying the manuscript
-"Next-generation optical reservoir computing with synthetic temporal lattices".
+"Reconfigurable optical next-generation reservoir computing with synthetic
+temporal lattices".
 
 The included scripts are intended to document the computational workflow used in
 the manuscript, including optical-feature style matrix construction,
@@ -28,9 +29,8 @@ NGRC-code/
       figure4bcd_source_data.csv
     supplementary_source_data/
       Supplementary_Fig2_peak_extraction_source.csv
-      Supplementary_Fig3_multilattice_feature_matrices_source.csv
-      Supplementary_Fig4_ridge_only_baseline_source.csv
-      Supplementary_Fig5_cumulative_spectral_energy_source.csv
+      Supplementary_Fig3_ridge_only_baseline_source.csv
+      Supplementary_Fig4_cumulative_spectral_energy_source.csv
 ```
 
 ## MATLAB Demos
@@ -57,6 +57,9 @@ optical NGRC workflow for one temporal-lattice configuration:
 The multi-lattice demo extends the same workflow by generating several
 distinct optical-like feature matrices, concatenating them before readout
 training, and comparing the single-lattice and fused multi-lattice results.
+The synthetic example keeps the per-lattice feature count modest so that the
+single-lattice branch does not saturate the toy task before the complementary
+lattice projections are added.
 
 These demos are not intended to reproduce the exact numerical results in the
 manuscript because they do not include the experimental oscilloscope waveform
@@ -85,7 +88,7 @@ python/figures/plot_supplementary_source_data.py
 ```
 
 uses the CSV files in `data/supplementary_source_data/` to generate lightweight
-check plots for Supplementary Figs. 2-5. These plots are intended for source-data
+check plots for Supplementary Figs. 2-4. These plots are intended for source-data
 inspection and repository-side reproducibility checks.
 
 The compressed file
@@ -103,10 +106,9 @@ The folder
 data/supplementary_source_data/
 ```
 
-contains the processed source data used for Supplementary Figs. 2-5. These
-files include the peak-extraction example, the multi-lattice feature-matrix
-visualization, the ridge-only baseline comparison, and the cumulative
-singular-value spectral-energy curves.
+contains the processed source data used for Supplementary Figs. 2-4. These
+files include the peak-extraction example, the ridge-only baseline comparison,
+and the cumulative singular-value spectral-energy curves.
 
 ## Requirements
 

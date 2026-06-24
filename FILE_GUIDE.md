@@ -96,9 +96,8 @@ source-data CSV files.
 Input:
 
 - `data/supplementary_source_data/Supplementary_Fig2_peak_extraction_source.csv`
-- `data/supplementary_source_data/Supplementary_Fig3_multilattice_feature_matrices_source.csv`
-- `data/supplementary_source_data/Supplementary_Fig4_ridge_only_baseline_source.csv`
-- `data/supplementary_source_data/Supplementary_Fig5_cumulative_spectral_energy_source.csv`
+- `data/supplementary_source_data/Supplementary_Fig3_ridge_only_baseline_source.csv`
+- `data/supplementary_source_data/Supplementary_Fig4_cumulative_spectral_energy_source.csv`
 
 Outputs:
 
@@ -106,7 +105,7 @@ Outputs:
 
 Main purpose:
 
-- provide repository-side plotting code for Supplementary Figs. 2-5,
+- provide repository-side plotting code for Supplementary Figs. 2-4,
 - allow readers to inspect the uploaded supplementary source data without using
   the full local manuscript folder.
 
@@ -159,33 +158,9 @@ Main purpose:
 
 - document how temporal-site peaks were selected from the oscilloscope trace.
 
-### `data/supplementary_source_data/Supplementary_Fig3_multilattice_feature_matrices_source.csv`
+### `data/supplementary_source_data/Supplementary_Fig3_ridge_only_baseline_source.csv`
 
-Source data for Supplementary Fig. 3, the multi-lattice feature-matrix
-visualization.
-
-Contains long-format matrix data:
-
-- matrix name,
-- sample index,
-- feature-channel index,
-- z-score-normalized value.
-
-The matrices correspond to:
-
-- lattice configuration 1,
-- lattice configuration 2,
-- lattice configuration 3,
-- fused feature matrix.
-
-Main purpose:
-
-- make the heatmap values behind the multi-lattice feature visualization
-  auditable.
-
-### `data/supplementary_source_data/Supplementary_Fig4_ridge_only_baseline_source.csv`
-
-Source data for Supplementary Fig. 4, the ridge-only baseline comparison.
+Source data for Supplementary Fig. 3, the ridge-only baseline comparison.
 
 Contains:
 
@@ -202,9 +177,9 @@ Important current values:
 
 These values match the manuscript text after rounding.
 
-### `data/supplementary_source_data/Supplementary_Fig5_cumulative_spectral_energy_source.csv`
+### `data/supplementary_source_data/Supplementary_Fig4_cumulative_spectral_energy_source.csv`
 
-Source data for Supplementary Fig. 5, the cumulative singular-value
+Source data for Supplementary Fig. 4, the cumulative singular-value
 spectral-energy curves.
 
 Contains:
@@ -261,7 +236,7 @@ Standalone Fig. 4d mean absolute feature-correlation panel.
 - The repository is a lightweight public code and processed-data package.
 - The MATLAB demo scripts explain the workflow but do not reproduce the exact
   experimental waveform processing.
-- Exact plotted source data for Fig. 4b-d and Supplementary Figs. 2-5 are
+- Exact plotted source data for Fig. 4b-d and Supplementary Figs. 2-4 are
   included.
 - Raw oscilloscope waveform files are not included because of their large file
   size.
